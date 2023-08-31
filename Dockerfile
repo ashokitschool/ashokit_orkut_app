@@ -4,7 +4,7 @@ RUN "echo hello"
 
 COPY target/app.jar /usr/app/app.jar 
 
-EXPOSE 9090
+EXPOSE 8081
 
 ENTRYPOINT [ "java", "-jar", "app.jar" ]
 
